@@ -1,0 +1,52 @@
+body {
+	background-color: green;
+	background-position: center;
+	background-image: url(fondo.png);
+	background-repeat: no-repeat;
+}
+
+p{
+	/* este ocmentario es en css */
+	font-size: 12px;
+	color: #0033ff;
+	letter-spacing: 1px;
+	line-height: 15px;
+	text-align: justify;
+	text-transform: lowercase;
+	font-family: 'Roboto Mono', monospace;
+	padding: 20px;
+	text-decoration: none;
+}
+
+ul {
+	list-style-image: url();
+}
+
+
+ol {
+	list-style-type: lower-armenian;
+}
+
+#top {
+	border: 5px solid red;
+}
+
+
+a{
+	color: red;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: green;
+}
+
+a:visited {
+	color: orange;
+}
+
